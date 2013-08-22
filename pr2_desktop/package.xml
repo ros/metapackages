@@ -1,0 +1,25 @@
+<package>
+  <name>pr2_desktop</name>
+  <version>1.0.0</version>
+  <description>A metapackage to aggregate several packages.</description>
+  <maintainer email="dthomas@osrfoundation.org">Dirk Thomas</maintainer>
+  <license>BSD</license>
+
+  <url type="repository">https://github.com/ros/metapackages</url>
+  <url type="bugtracker">https://github.com/ros/metapackages/issues</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>desktop_full</run_depend>
+  <run_depend>pr2_base</run_depend>
+  <run_depend>pr2_ethercat_drivers</run_depend>
+  <run_depend>pr2_gui</run_depend>
+  <run_depend>pr2_navigation</run_depend>
+  <run_depend>pr2_power_drivers</run_depend>
+  <run_depend>pr2_simulator</run_depend>
+  <run_depend>rqt_pr2_dashboard</run_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>

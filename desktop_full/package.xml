@@ -1,0 +1,21 @@
+<package>
+  <name>desktop_full</name>
+  <version>1.0.0</version>
+  <description>A metapackage to aggregate several packages.</description>
+  <maintainer email="dthomas@osrfoundation.org">Dirk Thomas</maintainer>
+  <license>BSD</license>
+
+  <url type="repository">https://github.com/ros/metapackages</url>
+  <url type="bugtracker">https://github.com/ros/metapackages/issues</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>desktop</run_depend>
+  <run_depend>mobile</run_depend>
+  <run_depend>perception</run_depend>
+  <run_depend>simulators</run_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>

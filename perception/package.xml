@@ -1,0 +1,23 @@
+<package>
+  <name>perception</name>
+  <version>1.0.0</version>
+  <description>A metapackage to aggregate several packages.</description>
+  <maintainer email="dthomas@osrfoundation.org">Dirk Thomas</maintainer>
+  <license>BSD</license>
+
+  <url type="repository">https://github.com/ros/metapackages</url>
+  <url type="bugtracker">https://github.com/ros/metapackages/issues</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>image_common</run_depend>
+  <run_depend>image_pipeline</run_depend>
+  <run_depend>image_transport_plugins</run_depend>
+  <run_depend>laser_pipeline</run_depend>
+  <run_depend>perception_pcl</run_depend>
+  <run_depend>vision_opencv</run_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>

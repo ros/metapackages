@@ -1,0 +1,23 @@
+<package>
+  <name>simulators</name>
+  <version>1.0.0</version>
+  <description>A metapackage to aggregate several packages.</description>
+  <maintainer email="dthomas@osrfoundation.org">Dirk Thomas</maintainer>
+  <license>BSD</license>
+
+  <url type="repository">https://github.com/ros/metapackages</url>
+  <url type="bugtracker">https://github.com/ros/metapackages/issues</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>gazebo_ros_pkgs</run_depend>
+  <run_depend>image_common</run_depend>
+  <run_depend>perception_pcl</run_depend>
+  <run_depend>robot</run_depend>
+  <run_depend>rqt_robot_plugins</run_depend>
+  <run_depend>stage_ros</run_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>
