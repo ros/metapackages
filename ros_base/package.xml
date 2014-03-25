@@ -1,7 +1,7 @@
 <package>
   <name>ros_base</name>
-  <version>1.0.2</version>
-  <description>A metapackage to aggregate several packages.</description>
+  <version>1.1.0</version>
+  <description>A metapackage which extends ros_core and includes other basic non-robot tools like actionlib, dynamic reconfigure, nodelets, and pluginlib.</description>
   <maintainer email="dthomas@osrfoundation.org">Dirk Thomas</maintainer>
   <license>BSD</license>
 
@@ -10,8 +10,15 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <run_depend>ros</run_depend>
-  <run_depend>ros_comm</run_depend>
+  <run_depend>ros_core</run_depend>
+
+  <run_depend>actionlib</run_depend>
+  <run_depend>bond_core</run_depend>
+  <run_depend>class_loader</run_depend>
+  <run_depend>common_tutorials</run_depend>
+  <run_depend>dynamic_reconfigure</run_depend>
+  <run_depend>nodelet_core</run_depend>
+  <run_depend>pluginlib</run_depend>
 
   <export>
     <metapackage/>
