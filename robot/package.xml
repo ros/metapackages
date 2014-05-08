@@ -1,7 +1,7 @@
 <package>
   <name>robot</name>
   <version>1.1.0</version>
-  <description>A metapackage to aggregate several packages.</description>
+  <description>A metapackage which extends ros_base and includes ROS libaries for any robot hardware. It may not contain any GUI dependencies.</description>
   <maintainer email="dthomas@osrfoundation.org">Dirk Thomas</maintainer>
   <license>BSD</license>
 
