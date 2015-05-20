@@ -15,7 +15,6 @@
   <run_depend>actionlib</run_depend>
   <run_depend>bond_core</run_depend>
   <run_depend>class_loader</run_depend>
-  <run_depend>common_tutorials</run_depend>
   <run_depend>dynamic_reconfigure</run_depend>
   <run_depend>nodelet_core</run_depend>
   <run_depend>pluginlib</run_depend>
