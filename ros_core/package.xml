@@ -14,6 +14,7 @@
   <run_depend>cmake_modules</run_depend>
   <run_depend>common_msgs</run_depend>
   <run_depend>gencpp</run_depend>
+  <run_depend>geneus</run_depend>
   <run_depend>genlisp</run_depend>
   <run_depend>genmsg</run_depend>
   <run_depend>genpy</run_depend>
