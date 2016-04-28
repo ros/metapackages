@@ -1,6 +1,6 @@
 <package>
   <name>desktop_full</name>
-  <version>1.2.0</version>
+  <version>1.3.0</version>
   <description>A metapackage to aggregate several packages.</description>
   <maintainer email="dthomas@osrfoundation.org">Dirk Thomas</maintainer>
   <license>BSD</license>
