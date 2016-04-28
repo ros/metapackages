@@ -17,6 +17,7 @@
   <run_depend>geneus</run_depend>
   <run_depend>genlisp</run_depend>
   <run_depend>genmsg</run_depend>
+  <run_depend>gennodejs</run_depend>
   <run_depend>genpy</run_depend>
   <run_depend>message_generation</run_depend>
   <run_depend>message_runtime</run_depend>
