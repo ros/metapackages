@@ -17,7 +17,6 @@
   <run_depend>geometry_tutorials</run_depend>
   <run_depend>ros_tutorials</run_depend>
   <run_depend>roslint</run_depend>
-  <run_depend>urdf_tutorial</run_depend>
   <run_depend>visualization_tutorials</run_depend>
 
   <export>
