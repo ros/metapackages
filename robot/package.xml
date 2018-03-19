@@ -17,8 +17,12 @@
   <run_depend>executive_smach</run_depend>
   <run_depend>filters</run_depend>
   <run_depend>geometry</run_depend>
-  <run_depend>robot_model</run_depend>
+  <run_depend>joint_state_publisher</run_depend>
+  <run_depend>kdl_parser</run_depend>
+  <run_depend>kdl_parser_py</run_depend>
   <run_depend>robot_state_publisher</run_depend>
+  <run_depend>urdf</run_depend>
+  <run_depend>urdf_parser_plugin</run_depend>
   <run_depend>xacro</run_depend>
 
   <export>
