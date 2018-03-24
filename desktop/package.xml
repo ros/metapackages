@@ -1,4 +1,8 @@
-<package>
+<?xml version="1.0"?>
+<?xml-model
+  href="http://download.ros.org/schema/package_format2.xsd"
+  schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="2">
   <name>desktop</name>
   <version>1.1.5</version>
   <description>A metapackage to aggregate several packages.</description>
@@ -12,15 +16,15 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <run_depend>robot</run_depend>
-  <run_depend>viz</run_depend>
+  <exec_depend>robot</exec_depend>
+  <exec_depend>viz</exec_depend>
 
-  <run_depend>angles</run_depend>
-  <run_depend>common_tutorials</run_depend>
-  <run_depend>geometry_tutorials</run_depend>
-  <run_depend>ros_tutorials</run_depend>
-  <run_depend>roslint</run_depend>
-  <run_depend>visualization_tutorials</run_depend>
+  <exec_depend>angles</exec_depend>
+  <exec_depend>common_tutorials</exec_depend>
+  <exec_depend>geometry_tutorials</exec_depend>
+  <exec_depend>ros_tutorials</exec_depend>
+  <exec_depend>roslint</exec_depend>
+  <exec_depend>visualization_tutorials</exec_depend>
 
   <export>
     <metapackage/>
