@@ -1,4 +1,8 @@
-<package>
+<?xml version="1.0"?>
+<?xml-model
+  href="http://download.ros.org/schema/package_format2.xsd"
+  schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="2">
   <name>desktop_full</name>
   <version>1.3.1</version>
   <description>A metapackage to aggregate several packages.</description>
@@ -12,11 +16,11 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <run_depend>desktop</run_depend>
-  <run_depend>perception</run_depend>
-  <run_depend>simulators</run_depend>
+  <exec_depend>desktop</exec_depend>
+  <exec_depend>perception</exec_depend>
+  <exec_depend>simulators</exec_depend>
 
-  <run_depend>urdf_tutorial</run_depend>
+  <exec_depend>urdf_tutorial</exec_depend>
 
   <export>
     <metapackage/>
