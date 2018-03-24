@@ -2,11 +2,13 @@
   <name>robot</name>
   <version>1.2.1</version>
   <description>A metapackage which extends ros_base and includes ROS libaries for any robot hardware. It may not contain any GUI dependencies.</description>
-  <maintainer email="dthomas@osrfoundation.org">Dirk Thomas</maintainer>
+  <maintainer email="mikael@osrfoundation.org">Mikael Arguedas</maintainer>
   <license>BSD</license>
 
   <url type="repository">https://github.com/ros/metapackages</url>
   <url type="bugtracker">https://github.com/ros/metapackages/issues</url>
+
+  <author>Dirk Thomas</author>
 
   <buildtool_depend>catkin</buildtool_depend>
 
