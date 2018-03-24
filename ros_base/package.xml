@@ -1,4 +1,8 @@
-<package>
+<?xml version="1.0"?>
+<?xml-model
+  href="http://download.ros.org/schema/package_format2.xsd"
+  schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="2">
   <name>ros_base</name>
   <version>1.2.1</version>
   <description>A metapackage which extends ros_core and includes other basic non-robot tools like actionlib, dynamic reconfigure, nodelets, and pluginlib.</description>
@@ -12,14 +16,14 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <run_depend>ros_core</run_depend>
+  <exec_depend>ros_core</exec_depend>
 
-  <run_depend>actionlib</run_depend>
-  <run_depend>bond_core</run_depend>
-  <run_depend>class_loader</run_depend>
-  <run_depend>dynamic_reconfigure</run_depend>
-  <run_depend>nodelet_core</run_depend>
-  <run_depend>pluginlib</run_depend>
+  <exec_depend>actionlib</exec_depend>
+  <exec_depend>bond_core</exec_depend>
+  <exec_depend>class_loader</exec_depend>
+  <exec_depend>dynamic_reconfigure</exec_depend>
+  <exec_depend>nodelet_core</exec_depend>
+  <exec_depend>pluginlib</exec_depend>
 
   <export>
     <metapackage/>
