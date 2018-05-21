@@ -20,10 +20,8 @@
 
   <exec_depend>actionlib</exec_depend>
   <exec_depend>bond_core</exec_depend>
-  <exec_depend>class_loader</exec_depend>
   <exec_depend>dynamic_reconfigure</exec_depend>
   <exec_depend>nodelet_core</exec_depend>
-  <exec_depend>pluginlib</exec_depend>
 
   <export>
     <metapackage/>
