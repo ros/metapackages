@@ -1,4 +1,4 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(ros_core)
+project(ros_core NONE)
 find_package(catkin REQUIRED)
 catkin_metapackage()
