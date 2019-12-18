@@ -19,6 +19,7 @@
   <exec_depend>robot</exec_depend>
   <exec_depend>viz</exec_depend>
 
+  <exec_depend>actionlib_tools</exec_depend>
   <exec_depend>angles</exec_depend>
   <exec_depend>common_tutorials</exec_depend>
   <exec_depend>geometry_tutorials</exec_depend>
